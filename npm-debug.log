@@ -1,0 +1,462 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json application-name@0.0.1 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Volumes/Macintosh HD/Users/ZankianVisionPro/Sites/tutorials/AngularRequireJsSample',
+6 verbose install   [ 'body-parser',
+6 verbose install     'express',
+6 verbose install     'grunt',
+6 verbose install     'grunt-contrib-requirejs',
+6 verbose install     'grunt-contrib-uglify',
+6 verbose install     'grunt-express',
+6 verbose install     'underscore' ] ]
+7 info preinstall application-name@0.0.1
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'body-parser@latest', null ]
+10 verbose cache add name=undefined spec="body-parser@latest" args=["body-parser@latest",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'body-parser@latest',
+11 verbose parsed url   path: 'body-parser@latest',
+11 verbose parsed url   href: 'body-parser@latest' }
+12 verbose cache add [ 'express@latest', null ]
+13 verbose cache add name=undefined spec="express@latest" args=["express@latest",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'express@latest',
+14 verbose parsed url   path: 'express@latest',
+14 verbose parsed url   href: 'express@latest' }
+15 verbose cache add [ 'grunt@latest', null ]
+16 verbose cache add name=undefined spec="grunt@latest" args=["grunt@latest",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'grunt@latest',
+17 verbose parsed url   path: 'grunt@latest',
+17 verbose parsed url   href: 'grunt@latest' }
+18 verbose cache add [ 'grunt-contrib-requirejs@latest', null ]
+19 verbose cache add name=undefined spec="grunt-contrib-requirejs@latest" args=["grunt-contrib-requirejs@latest",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'grunt-contrib-requirejs@latest',
+20 verbose parsed url   path: 'grunt-contrib-requirejs@latest',
+20 verbose parsed url   href: 'grunt-contrib-requirejs@latest' }
+21 verbose cache add [ 'grunt-contrib-uglify@latest', null ]
+22 verbose cache add name=undefined spec="grunt-contrib-uglify@latest" args=["grunt-contrib-uglify@latest",null]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'grunt-contrib-uglify@latest',
+23 verbose parsed url   path: 'grunt-contrib-uglify@latest',
+23 verbose parsed url   href: 'grunt-contrib-uglify@latest' }
+24 verbose cache add name="body-parser" spec="latest" args=["body-parser","latest"]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: 'latest',
+25 verbose parsed url   path: 'latest',
+25 verbose parsed url   href: 'latest' }
+26 verbose addNamed [ 'body-parser', 'latest' ]
+27 verbose addNamed [ null, null ]
+28 verbose cache add name="express" spec="latest" args=["express","latest"]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: 'latest',
+29 verbose parsed url   path: 'latest',
+29 verbose parsed url   href: 'latest' }
+30 verbose addNamed [ 'express', 'latest' ]
+31 verbose addNamed [ null, null ]
+32 verbose cache add name="grunt" spec="latest" args=["grunt","latest"]
+33 verbose parsed url { protocol: null,
+33 verbose parsed url   slashes: null,
+33 verbose parsed url   auth: null,
+33 verbose parsed url   host: null,
+33 verbose parsed url   port: null,
+33 verbose parsed url   hostname: null,
+33 verbose parsed url   hash: null,
+33 verbose parsed url   search: null,
+33 verbose parsed url   query: null,
+33 verbose parsed url   pathname: 'latest',
+33 verbose parsed url   path: 'latest',
+33 verbose parsed url   href: 'latest' }
+34 verbose addNamed [ 'grunt', 'latest' ]
+35 verbose addNamed [ null, null ]
+36 verbose cache add name="grunt-contrib-requirejs" spec="latest" args=["grunt-contrib-requirejs","latest"]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: 'latest',
+37 verbose parsed url   path: 'latest',
+37 verbose parsed url   href: 'latest' }
+38 verbose addNamed [ 'grunt-contrib-requirejs', 'latest' ]
+39 verbose addNamed [ null, null ]
+40 verbose cache add [ 'grunt-express@latest', null ]
+41 verbose cache add name=undefined spec="grunt-express@latest" args=["grunt-express@latest",null]
+42 verbose parsed url { protocol: null,
+42 verbose parsed url   slashes: null,
+42 verbose parsed url   auth: null,
+42 verbose parsed url   host: null,
+42 verbose parsed url   port: null,
+42 verbose parsed url   hostname: null,
+42 verbose parsed url   hash: null,
+42 verbose parsed url   search: null,
+42 verbose parsed url   query: null,
+42 verbose parsed url   pathname: 'grunt-express@latest',
+42 verbose parsed url   path: 'grunt-express@latest',
+42 verbose parsed url   href: 'grunt-express@latest' }
+43 verbose cache add [ 'underscore@latest', null ]
+44 verbose cache add name=undefined spec="underscore@latest" args=["underscore@latest",null]
+45 verbose parsed url { protocol: null,
+45 verbose parsed url   slashes: null,
+45 verbose parsed url   auth: null,
+45 verbose parsed url   host: null,
+45 verbose parsed url   port: null,
+45 verbose parsed url   hostname: null,
+45 verbose parsed url   hash: null,
+45 verbose parsed url   search: null,
+45 verbose parsed url   query: null,
+45 verbose parsed url   pathname: 'underscore@latest',
+45 verbose parsed url   path: 'underscore@latest',
+45 verbose parsed url   href: 'underscore@latest' }
+46 verbose cache add name="grunt-contrib-uglify" spec="latest" args=["grunt-contrib-uglify","latest"]
+47 verbose parsed url { protocol: null,
+47 verbose parsed url   slashes: null,
+47 verbose parsed url   auth: null,
+47 verbose parsed url   host: null,
+47 verbose parsed url   port: null,
+47 verbose parsed url   hostname: null,
+47 verbose parsed url   hash: null,
+47 verbose parsed url   search: null,
+47 verbose parsed url   query: null,
+47 verbose parsed url   pathname: 'latest',
+47 verbose parsed url   path: 'latest',
+47 verbose parsed url   href: 'latest' }
+48 verbose addNamed [ 'grunt-contrib-uglify', 'latest' ]
+49 verbose addNamed [ null, null ]
+50 silly lockFile 88319797-body-parser-latest body-parser@latest
+51 verbose lock body-parser@latest /Volumes/Macintosh HD/Users/ZankianVisionPro/.npm/88319797-body-parser-latest.lock
+52 silly lockFile c30a01ab-express-latest express@latest
+53 verbose lock express@latest /Volumes/Macintosh HD/Users/ZankianVisionPro/.npm/c30a01ab-express-latest.lock
+54 silly lockFile c5c58d45-grunt-latest grunt@latest
+55 verbose lock grunt@latest /Volumes/Macintosh HD/Users/ZankianVisionPro/.npm/c5c58d45-grunt-latest.lock
+56 silly lockFile 7b2cd1c8-grunt-contrib-requirejs-latest grunt-contrib-requirejs@latest
+57 verbose lock grunt-contrib-requirejs@latest /Volumes/Macintosh HD/Users/ZankianVisionPro/.npm/7b2cd1c8-grunt-contrib-requirejs-latest.lock
+58 silly lockFile 20260ab5-grunt-contrib-uglify-latest grunt-contrib-uglify@latest
+59 verbose lock grunt-contrib-uglify@latest /Volumes/Macintosh HD/Users/ZankianVisionPro/.npm/20260ab5-grunt-contrib-uglify-latest.lock
+60 verbose cache add name="grunt-express" spec="latest" args=["grunt-express","latest"]
+61 verbose parsed url { protocol: null,
+61 verbose parsed url   slashes: null,
+61 verbose parsed url   auth: null,
+61 verbose parsed url   host: null,
+61 verbose parsed url   port: null,
+61 verbose parsed url   hostname: null,
+61 verbose parsed url   hash: null,
+61 verbose parsed url   search: null,
+61 verbose parsed url   query: null,
+61 verbose parsed url   pathname: 'latest',
+61 verbose parsed url   path: 'latest',
+61 verbose parsed url   href: 'latest' }
+62 verbose addNamed [ 'grunt-express', 'latest' ]
+63 verbose addNamed [ null, null ]
+64 silly lockFile d1f1f7cf-grunt-express-latest grunt-express@latest
+65 verbose lock grunt-express@latest /Volumes/Macintosh HD/Users/ZankianVisionPro/.npm/d1f1f7cf-grunt-express-latest.lock
+66 verbose cache add name="underscore" spec="latest" args=["underscore","latest"]
+67 verbose parsed url { protocol: null,
+67 verbose parsed url   slashes: null,
+67 verbose parsed url   auth: null,
+67 verbose parsed url   host: null,
+67 verbose parsed url   port: null,
+67 verbose parsed url   hostname: null,
+67 verbose parsed url   hash: null,
+67 verbose parsed url   search: null,
+67 verbose parsed url   query: null,
+67 verbose parsed url   pathname: 'latest',
+67 verbose parsed url   path: 'latest',
+67 verbose parsed url   href: 'latest' }
+68 verbose addNamed [ 'underscore', 'latest' ]
+69 verbose addNamed [ null, null ]
+70 silly lockFile 546e1155-underscore-latest underscore@latest
+71 verbose lock underscore@latest /Volumes/Macintosh HD/Users/ZankianVisionPro/.npm/546e1155-underscore-latest.lock
+72 info addNameTag [ 'express', 'latest' ]
+73 info addNameTag [ 'body-parser', 'latest' ]
+74 info addNameTag [ 'grunt', 'latest' ]
+75 info addNameTag [ 'grunt-contrib-requirejs', 'latest' ]
+76 info addNameTag [ 'grunt-contrib-uglify', 'latest' ]
+77 info addNameTag [ 'grunt-express', 'latest' ]
+78 info addNameTag [ 'underscore', 'latest' ]
+79 verbose request where is /express
+80 verbose request registry https://registry.npmjs.org/
+81 verbose request id 9dc085d9758314a9
+82 verbose url raw /express
+83 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+84 verbose url resolved https://registry.npmjs.org/express
+85 verbose request where is https://registry.npmjs.org/express
+86 info trying registry request attempt 1 at 11:23:07
+87 http GET https://registry.npmjs.org/express
+88 verbose request where is /body-parser
+89 verbose request registry https://registry.npmjs.org/
+90 verbose url raw /body-parser
+91 verbose url resolving [ 'https://registry.npmjs.org/', './body-parser' ]
+92 verbose url resolved https://registry.npmjs.org/body-parser
+93 verbose request where is https://registry.npmjs.org/body-parser
+94 info trying registry request attempt 1 at 11:23:07
+95 http GET https://registry.npmjs.org/body-parser
+96 verbose request where is /grunt-contrib-requirejs
+97 verbose request registry https://registry.npmjs.org/
+98 verbose url raw /grunt-contrib-requirejs
+99 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-requirejs' ]
+100 verbose url resolved https://registry.npmjs.org/grunt-contrib-requirejs
+101 verbose request where is https://registry.npmjs.org/grunt-contrib-requirejs
+102 info trying registry request attempt 1 at 11:23:07
+103 verbose etag "A7UYZOMBCK0TGQVYE7DDXA01Y"
+104 http GET https://registry.npmjs.org/grunt-contrib-requirejs
+105 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+106 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+107 verbose request where is /grunt
+108 verbose request registry https://registry.npmjs.org/
+109 verbose url raw /grunt
+110 verbose url resolving [ 'https://registry.npmjs.org/', './grunt' ]
+111 verbose url resolved https://registry.npmjs.org/grunt
+112 verbose request where is https://registry.npmjs.org/grunt
+113 info trying registry request attempt 1 at 11:23:07
+114 verbose etag "9E6Z1SK1XJD3F8LJCTNWVV3ER"
+115 http GET https://registry.npmjs.org/grunt
+116 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+117 verbose request where is /grunt-contrib-uglify
+118 verbose request registry https://registry.npmjs.org/
+119 verbose url raw /grunt-contrib-uglify
+120 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-uglify' ]
+121 verbose url resolved https://registry.npmjs.org/grunt-contrib-uglify
+122 verbose request where is https://registry.npmjs.org/grunt-contrib-uglify
+123 info trying registry request attempt 1 at 11:23:07
+124 verbose etag "1XM55RI59L7G9DTQN66N8WH3W"
+125 http GET https://registry.npmjs.org/grunt-contrib-uglify
+126 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+127 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+128 verbose request where is /grunt-express
+129 verbose request registry https://registry.npmjs.org/
+130 verbose url raw /grunt-express
+131 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-express' ]
+132 verbose url resolved https://registry.npmjs.org/grunt-express
+133 verbose request where is https://registry.npmjs.org/grunt-express
+134 info trying registry request attempt 1 at 11:23:07
+135 verbose etag "29JVUAOF0VG7O6SKNSYUP2EGZ"
+136 http GET https://registry.npmjs.org/grunt-express
+137 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+138 verbose request where is /underscore
+139 verbose request registry https://registry.npmjs.org/
+140 verbose url raw /underscore
+141 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+142 verbose url resolved https://registry.npmjs.org/underscore
+143 verbose request where is https://registry.npmjs.org/underscore
+144 info trying registry request attempt 1 at 11:23:07
+145 verbose etag "6C4S8P3DXQDKXB2TXDW1SVIAU"
+146 http GET https://registry.npmjs.org/underscore
+147 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+148 info trying registry request attempt 2 at 11:23:17
+149 http GET https://registry.npmjs.org/express
+150 info trying registry request attempt 2 at 11:23:17
+151 http GET https://registry.npmjs.org/body-parser
+152 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+153 info trying registry request attempt 2 at 11:23:17
+154 verbose etag "A7UYZOMBCK0TGQVYE7DDXA01Y"
+155 http GET https://registry.npmjs.org/grunt-contrib-requirejs
+156 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+157 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+158 info trying registry request attempt 2 at 11:23:17
+159 verbose etag "9E6Z1SK1XJD3F8LJCTNWVV3ER"
+160 http GET https://registry.npmjs.org/grunt
+161 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+162 info trying registry request attempt 2 at 11:23:17
+163 verbose etag "1XM55RI59L7G9DTQN66N8WH3W"
+164 http GET https://registry.npmjs.org/grunt-contrib-uglify
+165 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+166 info trying registry request attempt 2 at 11:23:17
+167 verbose etag "29JVUAOF0VG7O6SKNSYUP2EGZ"
+168 http GET https://registry.npmjs.org/grunt-express
+169 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+170 info trying registry request attempt 2 at 11:23:17
+171 verbose etag "6C4S8P3DXQDKXB2TXDW1SVIAU"
+172 http GET https://registry.npmjs.org/underscore
+173 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+174 info trying registry request attempt 3 at 11:24:17
+175 http GET https://registry.npmjs.org/express
+176 info trying registry request attempt 3 at 11:24:17
+177 http GET https://registry.npmjs.org/body-parser
+178 silly lockFile c30a01ab-express-latest express@latest
+179 silly lockFile c30a01ab-express-latest express@latest
+180 info trying registry request attempt 3 at 11:24:17
+181 verbose etag "A7UYZOMBCK0TGQVYE7DDXA01Y"
+182 http GET https://registry.npmjs.org/grunt-contrib-requirejs
+183 silly lockFile 88319797-body-parser-latest body-parser@latest
+184 silly lockFile 88319797-body-parser-latest body-parser@latest
+185 info trying registry request attempt 3 at 11:24:17
+186 verbose etag "9E6Z1SK1XJD3F8LJCTNWVV3ER"
+187 http GET https://registry.npmjs.org/grunt
+188 info trying registry request attempt 3 at 11:24:17
+189 verbose etag "1XM55RI59L7G9DTQN66N8WH3W"
+190 http GET https://registry.npmjs.org/grunt-contrib-uglify
+191 silly registry.get cb [ 304, undefined ]
+192 verbose etag https://registry.npmjs.org/grunt-contrib-requirejs from cache
+193 silly registry.get cb [ 304, undefined ]
+194 verbose etag https://registry.npmjs.org/grunt from cache
+195 silly registry.get cb [ 304, undefined ]
+196 verbose etag https://registry.npmjs.org/grunt-contrib-uglify from cache
+197 info trying registry request attempt 3 at 11:24:17
+198 verbose etag "29JVUAOF0VG7O6SKNSYUP2EGZ"
+199 http GET https://registry.npmjs.org/grunt-express
+200 silly registry.get cb [ 304, undefined ]
+201 verbose etag https://registry.npmjs.org/grunt-express from cache
+202 info trying registry request attempt 3 at 11:24:17
+203 verbose etag "6C4S8P3DXQDKXB2TXDW1SVIAU"
+204 http GET https://registry.npmjs.org/underscore
+205 verbose addNamed [ 'grunt-contrib-requirejs', '0.4.4' ]
+206 verbose addNamed [ '0.4.4', '0.4.4' ]
+207 silly lockFile e2afe6c5-grunt-contrib-requirejs-0-4-4 grunt-contrib-requirejs@0.4.4
+208 verbose lock grunt-contrib-requirejs@0.4.4 /Volumes/Macintosh HD/Users/ZankianVisionPro/.npm/e2afe6c5-grunt-contrib-requirejs-0-4-4.lock
+209 verbose addNamed [ 'grunt', '0.4.5' ]
+210 verbose addNamed [ '0.4.5', '0.4.5' ]
+211 silly lockFile 81abf7ad-grunt-0-4-5 grunt@0.4.5
+212 verbose lock grunt@0.4.5 /Volumes/Macintosh HD/Users/ZankianVisionPro/.npm/81abf7ad-grunt-0-4-5.lock
+213 verbose addNamed [ 'grunt-contrib-uglify', '0.7.0' ]
+214 verbose addNamed [ '0.7.0', '0.7.0' ]
+215 silly lockFile 0707808c-grunt-contrib-uglify-0-7-0 grunt-contrib-uglify@0.7.0
+216 verbose lock grunt-contrib-uglify@0.7.0 /Volumes/Macintosh HD/Users/ZankianVisionPro/.npm/0707808c-grunt-contrib-uglify-0-7-0.lock
+217 silly registry.get cb [ 304, undefined ]
+218 verbose etag https://registry.npmjs.org/underscore from cache
+219 silly lockFile 263c708a-y-grunt-contrib-uglify-0-7-0-tgz https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+220 verbose lock https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz /Volumes/Macintosh HD/Users/ZankianVisionPro/.npm/263c708a-y-grunt-contrib-uglify-0-7-0-tgz.lock
+221 verbose addNamed [ 'grunt-express', '1.4.1' ]
+222 verbose addNamed [ '1.4.1', '1.4.1' ]
+223 silly lockFile 5074e9fc-grunt-express-1-4-1 grunt-express@1.4.1
+224 verbose lock grunt-express@1.4.1 /Volumes/Macintosh HD/Users/ZankianVisionPro/.npm/5074e9fc-grunt-express-1-4-1.lock
+225 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz',
+225 verbose addRemoteTarball   '79dde81a62cec6ffa35b47a32833706744f8e787' ]
+226 silly lockFile 7cea946f--express-grunt-express-1-4-1-tgz https://registry.npmjs.org/grunt-express/-/grunt-express-1.4.1.tgz
+227 verbose lock https://registry.npmjs.org/grunt-express/-/grunt-express-1.4.1.tgz /Volumes/Macintosh HD/Users/ZankianVisionPro/.npm/7cea946f--express-grunt-express-1-4-1-tgz.lock
+228 verbose addNamed [ 'underscore', '1.7.0' ]
+229 verbose addNamed [ '1.7.0', '1.7.0' ]
+230 silly lockFile 900da168-underscore-1-7-0 underscore@1.7.0
+231 verbose lock underscore@1.7.0 /Volumes/Macintosh HD/Users/ZankianVisionPro/.npm/900da168-underscore-1-7-0.lock
+232 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-express/-/grunt-express-1.4.1.tgz',
+232 verbose addRemoteTarball   '8ffe081ad3a47de0cea0d1e4f1565ce453edc61e' ]
+233 info retry fetch attempt 1 at 11:24:17
+234 verbose fetch to= /var/folders/zn/y67crnn53db3f3p35mpkyw100000gn/T/npm-29319-oHBVgZ5A/registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+235 http GET https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+236 info retry fetch attempt 1 at 11:24:17
+237 verbose fetch to= /var/folders/zn/y67crnn53db3f3p35mpkyw100000gn/T/npm-29319-oHBVgZ5A/registry.npmjs.org/grunt-express/-/grunt-express-1.4.1.tgz
+238 error fetch failed https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+239 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+240 http GET https://registry.npmjs.org/grunt-express/-/grunt-express-1.4.1.tgz
+241 error fetch failed https://registry.npmjs.org/grunt-express/-/grunt-express-1.4.1.tgz
+242 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+243 silly lockFile e2afe6c5-grunt-contrib-requirejs-0-4-4 grunt-contrib-requirejs@0.4.4
+244 silly lockFile e2afe6c5-grunt-contrib-requirejs-0-4-4 grunt-contrib-requirejs@0.4.4
+245 silly lockFile 7b2cd1c8-grunt-contrib-requirejs-latest grunt-contrib-requirejs@latest
+246 silly lockFile 7b2cd1c8-grunt-contrib-requirejs-latest grunt-contrib-requirejs@latest
+247 silly lockFile 81abf7ad-grunt-0-4-5 grunt@0.4.5
+248 silly lockFile 81abf7ad-grunt-0-4-5 grunt@0.4.5
+249 silly lockFile c5c58d45-grunt-latest grunt@latest
+250 silly lockFile c5c58d45-grunt-latest grunt@latest
+251 silly lockFile 900da168-underscore-1-7-0 underscore@1.7.0
+252 silly lockFile 900da168-underscore-1-7-0 underscore@1.7.0
+253 silly lockFile 546e1155-underscore-latest underscore@latest
+254 silly lockFile 546e1155-underscore-latest underscore@latest
+255 info retry fetch attempt 2 at 11:24:27
+256 verbose fetch to= /var/folders/zn/y67crnn53db3f3p35mpkyw100000gn/T/npm-29319-oHBVgZ5A/registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+257 http GET https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+258 info retry fetch attempt 2 at 11:24:27
+259 verbose fetch to= /var/folders/zn/y67crnn53db3f3p35mpkyw100000gn/T/npm-29319-oHBVgZ5A/registry.npmjs.org/grunt-express/-/grunt-express-1.4.1.tgz
+260 http GET https://registry.npmjs.org/grunt-express/-/grunt-express-1.4.1.tgz
+261 error fetch failed https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+262 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+263 error fetch failed https://registry.npmjs.org/grunt-express/-/grunt-express-1.4.1.tgz
+264 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+265 info retry fetch attempt 3 at 11:25:27
+266 verbose fetch to= /var/folders/zn/y67crnn53db3f3p35mpkyw100000gn/T/npm-29319-oHBVgZ5A/registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+267 info retry fetch attempt 3 at 11:25:27
+268 verbose fetch to= /var/folders/zn/y67crnn53db3f3p35mpkyw100000gn/T/npm-29319-oHBVgZ5A/registry.npmjs.org/grunt-express/-/grunt-express-1.4.1.tgz
+269 http GET https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+270 http GET https://registry.npmjs.org/grunt-express/-/grunt-express-1.4.1.tgz
+271 error fetch failed https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+272 silly lockFile 263c708a-y-grunt-contrib-uglify-0-7-0-tgz https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+273 silly lockFile 263c708a-y-grunt-contrib-uglify-0-7-0-tgz https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+274 error fetch failed https://registry.npmjs.org/grunt-express/-/grunt-express-1.4.1.tgz
+275 silly lockFile 7cea946f--express-grunt-express-1-4-1-tgz https://registry.npmjs.org/grunt-express/-/grunt-express-1.4.1.tgz
+276 silly lockFile 7cea946f--express-grunt-express-1-4-1-tgz https://registry.npmjs.org/grunt-express/-/grunt-express-1.4.1.tgz
+277 silly lockFile 0707808c-grunt-contrib-uglify-0-7-0 grunt-contrib-uglify@0.7.0
+278 silly lockFile 0707808c-grunt-contrib-uglify-0-7-0 grunt-contrib-uglify@0.7.0
+279 silly lockFile 5074e9fc-grunt-express-1-4-1 grunt-express@1.4.1
+280 silly lockFile 5074e9fc-grunt-express-1-4-1 grunt-express@1.4.1
+281 silly lockFile 20260ab5-grunt-contrib-uglify-latest grunt-contrib-uglify@latest
+282 silly lockFile 20260ab5-grunt-contrib-uglify-latest grunt-contrib-uglify@latest
+283 silly lockFile d1f1f7cf-grunt-express-latest grunt-express@latest
+284 silly lockFile d1f1f7cf-grunt-express-latest grunt-express@latest
+285 error network tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+285 error network This is most likely not a problem with npm itself
+285 error network and is related to network connectivity.
+285 error network In most cases you are behind a proxy or have bad network settings.
+285 error network
+285 error network If you are behind a proxy, please make sure that the
+285 error network 'proxy' config is set properly.  See: 'npm help config'
+286 error System Darwin 14.0.0
+287 error command "node" "/usr/local/bin/npm" "install"
+288 error cwd /Volumes/Macintosh HD/Users/ZankianVisionPro/Sites/tutorials/AngularRequireJsSample
+289 error node -v v0.10.33
+290 error npm -v 1.4.28
+291 error code ECONNRESET
+292 verbose exit [ 1, true ]
